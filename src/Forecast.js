@@ -10,7 +10,7 @@ function Forecast() {
     const handleRequest = async (ev) => {
         ev.preventDefault();
         if (ev.key === "Enter") {
-            const siteQuery = `?zip=48044&apikey=${process.env.REACT_APP_API_KEY}`;
+            const siteQuery = `?zip=${zipCode}&apikey=${process.env.REACT_APP_API_KEY}`;
             await axios.get(baseURL + siteQuery)
                 .then(res => {
                     setForecast(res.data)
