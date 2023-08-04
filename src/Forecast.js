@@ -55,17 +55,16 @@ function Forecast() {
                         <p className="temperature">{(1.8 * (forecast.main.temp - 273.15) + 32).toFixed(0)} °F </p>
                         <p className="temp-feelsLike">Feels like: {(1.8 * (forecast.main.feels_like - 273.15) + 32).toFixed(2)} °F </p>
                         <div className='air'>
-                        <h3 className="humidity-header">HUMIDITY</h3>
-                        <p className="humidity-info">{forecast.main.humidity}%</p>
-                        <h3 className="wind-header">WIND SPEED</h3>
-                        <p className="wind-info" id="wind-stuff">{(forecast.wind.speed * 2.236936).toFixed(2)} MPH</p>
+                            <h3 className="humidity-header">HUMIDITY</h3>
+                            <p className="humidity-info">{forecast.main.humidity}%</p>
+                            <h3 className="wind-header">WIND SPEED</h3>
+                            <p className="wind-info" id="wind-stuff">{(forecast.wind.speed * 2.236936).toFixed(2)} MPH</p>
                         </div>
-                 </div>
+                    </div>
                 </div>
             )}
         </div>
     );
-                    }
-
+}
 
 export default Forecast;
