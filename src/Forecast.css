@@ -1,0 +1,129 @@
+body {
+    background-color: #A8DADC;
+}
+
+h2,
+h3 {
+    color: #F1FAEE;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    color: #F1FAEE;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #F1FAEE;
+    align-content: right;
+    width: 100%;
+    margin-top: -3%;
+    margin-left: -5%;
+}
+
+input {
+    background-color: #F1FAEE;
+    border-radius: 20px;
+    border: 1px solid #E63946;
+    color: #1D3557;
+    width: 150%;
+    height: 300%;
+    padding-left: 12%;
+    margin-left: -30%;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #E63946;
+    color: #1D3557;
+
+}
+
+.top-part {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.weather-info {
+    background-color: #1D3557;
+    display: grid;
+    padding: 20px 0px 20px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    width: 500px;
+    margin: 0% auto;
+}
+
+.location {
+    margin-top: 0%;
+    margin-left: 23%;
+    font-size: 45px;
+    font-weight: 500;
+    align-content: center;
+}
+
+.date {
+    margin-top: -6%;
+    margin-left: 26%;
+    font-size: 25px;
+}
+
+.weather-icon {
+    display: block;
+    margin-left: 8%;
+    width: 15%;
+}
+
+.forecast-desc {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 35px;
+}
+
+.temperature {
+    margin-top: -2%;
+    margin-bottom: -15px;
+    font-size: 80px;
+}
+
+.temp-feelsLike {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+.air {
+    border-left: 1px solid #F1FAEE;
+    margin-left: 60%;
+    margin-top: -50%;
+}
+
+.wind-header {
+    padding-left: 5%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.wind-info {
+    padding-left: 5%;
+    margin-top: -10%;
+    font-size: 20px;
+}
+
+.humidity-header {
+    padding-left: 5%;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.humidity-info {
+    padding-left: 5%;
+    margin-top: -10%;
+    font-size: 20px;
+}
